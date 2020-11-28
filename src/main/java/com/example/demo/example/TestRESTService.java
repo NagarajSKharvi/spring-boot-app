@@ -12,4 +12,9 @@ public class TestRESTService {
 	public String test() {
 		return "REST Call Ping";
 	}
+	
+	@GetMapping("/build")
+	public String automatedBuild() {
+		return "REST Call : Automated Build Success";
+	}
 }
